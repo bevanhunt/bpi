@@ -1,6 +1,6 @@
 ## Interview Assignment
 
-## Run
+## Run Program
   - `go build .`
   - `go run main.go -i [input]`
   - example: `go run main.go -i 110`
@@ -10,3 +10,6 @@
 
 ## Invalid Input
   - input of `112` will output `invalid input 2 at position 3`
+
+## Run Tests
+  - `go test`
