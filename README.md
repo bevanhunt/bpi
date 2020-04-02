@@ -1,7 +1,6 @@
 ## Interview Assignment
 
 ## Run Program
-  - `go build .`
   - `go run main.go -i [input]`
   - example: `go run main.go -i 110`
 
