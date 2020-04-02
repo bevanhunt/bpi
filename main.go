@@ -9,6 +9,7 @@ import (
 func state(input string) string {
 	currentState := "S0"
 	resultState := ""
+	// inital state, input, result state, output
 	states := [][]string{{"S0", "0", "S0", "0"}, {"S0", "1", "S1", "1"}, {"S1", "0", "S2", "2"}, {"S1", "1", "S0", "0"}, {"S2", "0", "S1", "1"}, {"S2", "1", "S2", "2"}}
 
 	values := strings.Split(input, "")
